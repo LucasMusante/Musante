@@ -77,6 +77,9 @@ header a {
   background-color: rgb(189, 187, 187);
 }
 
+.imagen-index {
+  width: 100%;
+}
 
 /* main */
 
@@ -187,8 +190,10 @@ footer {
       "header"
       "main"
       "main"
-      "footer"
-    ;
+      "footer";
+  }
+  .contenedor-nav {
+    flex-direction: column;
   }
 }
 
@@ -258,7 +263,7 @@ textarea {
 .servicios-main {
   display: flex;
   flex-direction: row;
-  padding-top: 20rem;
+  flex-wrap: wrap;
 }
 
 .imagenes {
